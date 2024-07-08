@@ -1,0 +1,31 @@
+{
+  "name": "email-sender",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "RAMKUMAR",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "celebrate": "^15.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "joi": "^17.13.3",
+    "juice": "^10.0.0",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.4.5",
+    "multer": "^1.4.5-lts.1",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7",
+    "pug": "^3.0.3",
+    "uuid": "^10.0.0",
+    "uuid-mongodb": "^2.5.5"
+  }
+}
