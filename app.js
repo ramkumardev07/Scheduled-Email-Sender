@@ -1,7 +1,6 @@
 
 const express = require('express')
 const app = express()
-const bodyparser = require('body-parser')
 const path = require('path')
 app.use(express.urlencoded({extended:true}))
 app.use(express.json());
